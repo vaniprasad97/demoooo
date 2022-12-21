@@ -1,13 +1,125 @@
-body {
+ body{
+  background-color: rgb(234,237,237);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+-webkit-font-smoothing : antialiased;
+-moz-osx-font-smoothing: grayscale; 
+}
+ /* * {
+  margin: 200;
+} 
+
+body {
+  background-color: rgb(234, 237, 237);
+  margin: 0; 
+}
+form {
+  align-items: center; 
+  margin: 0px 10px; }
+
+h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
-code {
+.container { max-width: 360px; }
+* {
+  margin: 0px;
+  padding: 0px;
+} */
+/* body {
+  font-family: "Quicksand", sans-serif;
+  display: grid;
+  height: 100vh;
+  background: #7f7fd5;
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+} */
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+/* * {
+  margin: 0px;
+  padding: 0px;
 }
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  display: grid;
+  height: 100vh;
+  background: #7f7fd5;
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+}
+
+.login-container {
+  outline: 3px solid #182c61;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background: white;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  margin-top: 10%;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0 0 20px0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.login-container h1 {
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #182c61;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container p {
+  color: red;
+}
+
+.login-container fieldset {
+  border: none;
+}
+
+.login-button {
+  margin: 0;
+  width: 200px;
+  align-self: center;
+  text-align: center;
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+  padding: 5px 12px;
+  color: #fff;
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.login-button:hover {
+  background-color: #227093;
+  border: 1px solid #227093;
+}
+
+.Email,
+.Password {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 8px 12px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 12px;
+} */
